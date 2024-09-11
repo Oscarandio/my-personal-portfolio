@@ -1,0 +1,15 @@
+interface HeaderTitleProps {
+ title: string;
+ description: string;
+}
+
+const HeaderTitle:React.FC<HeaderTitleProps> = ({ title, description}) => {
+  return (
+    <header className='my-2 px-3 py-6 text-black bg-white rounded'>
+      <h1 className='text-4xl font-semibold mb-4 text-center '>{title}</h1>
+      <p className='w-3/4 mx-auto'>{description}</p>
+    </header>
+  );
+};
+
+export default HeaderTitle;
