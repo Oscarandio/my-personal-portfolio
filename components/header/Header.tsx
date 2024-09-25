@@ -1,6 +1,6 @@
-import HeaderTitle from "./header/HeaderTitle";
+import HeaderTitle from '@/components/header/HeaderTitle';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <>
       <HeaderTitle

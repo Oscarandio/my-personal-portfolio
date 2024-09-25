@@ -1,8 +1,8 @@
-import Li from "../Li";
+import Li from '@/components/nav/Li';
 
-const NavList = () => {
+const NavList: React.FC = () => {
   return (
-    <ul className='flex gap-4 pe-6 mt-4 mb-2 md:my-0'>
+    <ul className='flex gap-4 md:pe-6 mt-3 md:mt-4 mb-2 md:my-0'>
       <Li text='Home' url='/' />
       <Li text='Projects' url='/' />
       <Li text='CV' url='/' />
