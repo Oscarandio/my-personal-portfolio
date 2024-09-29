@@ -6,7 +6,7 @@ import Pill from '../Pill';
 
 const Projects: React.FC = () => {
   return (
-    <aside className='px-4 py-6 text-black bg-white rounded'>
+    <aside className='px-4 py-6 text-black bg-white rounded text-sm xl:text-base'>
       <Subtitle subtitle='Works' />
       <Link
         className='text-blue-500'

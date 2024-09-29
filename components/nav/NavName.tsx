@@ -16,7 +16,7 @@
          src={imageUrl}
          alt={name}
        />
-       <figcaption className='text-xl font-bold'>{name}</figcaption>
+       <figcaption className='xl:text-xl font-bold'>{name}</figcaption>
      </figure>
    );
  };

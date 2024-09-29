@@ -6,7 +6,7 @@ interface LiProps {
 }
 const Li: React.FC<LiProps> = ({ url, text }) => {
   return (
-    <li className='text-gray-700 hover:text-gray-900'>
+    <li className='text-gray-700 hover:text-gray-900 text-sm xl:text-base'>
       <Link href={url}>{text}</Link>
     </li>
   );
