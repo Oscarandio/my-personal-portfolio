@@ -3,9 +3,9 @@ import ProjectCard from './ProjectCard';
 
 const Projects: React.FC = () => {
   return (
-    <aside className='py-6'>
+    <aside>
       <Subtitle subtitle='Works' />
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-2 py-4 text-black text-sm xl:text-base'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 py-4 text-black'>
         <ProjectCard
           url='https://www.tubookbuddy.es/'
           projectName='tubookbuddy.es'
