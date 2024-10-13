@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
           projectName='tubookbuddy.es'
           imgUrl='/tubookbuddy.webp'
           description='Tu Book Buddy allows you to keep track of your read and pending books,
-        and share your readings with friends and other users.'
+        and share your readings with friends and other users. Uses the Google Books API and integrates user authentication and database with Firebase. It is a personal side-project that I am entirely in charge of.'
           technology={[
             'NextJS',
             'Typescript',
@@ -26,6 +26,7 @@ const Projects: React.FC = () => {
           url='https://vilatijolo.pt/'
           projectName='vilatijolo.pt'
           imgUrl='/vilatijolo.webp'
+          description='This is the type of development that I carry out in my current job, which involves NextJS with Styled Components'
           technology={['NextJS', 'Javascript', 'Styled Components']}
         />
       </div>

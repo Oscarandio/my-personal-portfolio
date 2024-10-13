@@ -49,14 +49,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         src={imgUrl}
         alt={projectName}
       />
-      <p className='my-2'>{description}</p>
-      <div className='flex flex-wrap gap-2 pb-4'>
-        {technology.map((tech) => {
-          const { bgColor } = techColors[tech] || {
-            bgColor: 'bg-black',
-          };
-          return <Pill key={tech} technology={tech} bgColor={bgColor} />;
-        })}
+      <div>
+        <p className='my-2'>{description}</p>
+        <div className='flex flex-wrap gap-2 pb-4 items-end'>
+          {technology.map((tech) => {
+            const { bgColor } = techColors[tech] || {
+              bgColor: 'bg-black',
+            };
+            return <Pill key={tech} technology={tech} bgColor={bgColor} />;
+          })}
+        </div>
       </div>
     </div>
   );

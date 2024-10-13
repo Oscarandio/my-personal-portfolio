@@ -6,6 +6,7 @@ interface PillProps {
 const Pill: React.FC<PillProps> = ({ technology, bgColor }) => {
   return (
     <button
+      type='button'
       className={`${bgColor} text-white px-2 py-1 rounded shadow-lg cursor-default`}>
       {technology}
     </button>

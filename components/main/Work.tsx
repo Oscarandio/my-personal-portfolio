@@ -14,6 +14,7 @@ const Work: React.FC = () => {
               'Carry out the implementation of web designs from Figma, working with designers to achieve the best look and feel of landings and websites.',
               'Collaborate with the backend team to ensure a smooth and efficient integration of the web pages created.',
               'Supervise interns and provide them with training in layout, which has allowed their professional growth and improved their ability to practice the profession.',
+              // Poner absolutamente todo lo que hago en la empresa, con detalle y edulcorandolo
             ]}
           />
         </div>
